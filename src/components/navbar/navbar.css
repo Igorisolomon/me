@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+
+.brand{
+    font-family: 'Lobster Two', cursive;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: bolder;
+}
+.item{
+    padding: 20px;
+}
