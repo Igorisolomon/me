@@ -2,7 +2,7 @@
   "name": "portfolio-app",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://igorisolomon.github.io",
+  "homepage" : "https://igorisolomon.github.io/me",
   "dependencies": {
     "bootstrap": "^4.1.1",
     "gh-pages": "^1.1.0",
