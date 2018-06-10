@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 // import logo from '../logo.svg';
 import './App.css';
-import Home from '../components/home/home';
-import About from '../components/about/about';
-import Works from '../components/works/works';
-import Footer from '../components/footer/footer';
+import Home from '../components/Home/Home';
+import About from '../components/About/About';
+import Works from '../components/Works/Works';
+import Footer from '../components/Footer/Footer';
 
 
 class App extends Component {

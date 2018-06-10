@@ -1,23 +1,21 @@
 import React from 'react';
-import './home.css'
+import './Home.css'
 import PropTypes from 'prop-types';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import TopNav from '../navbar/navbar';
+import TopNav from '../Navbar/Navbar';
 
 const Home = (props)=>{
-    const classes = [];
-    classes.push('homebg');
     return(
         <div className='homebg'>{/*Adding the background image*/}
             <TopNav />
             <div className="middle">
-                <div className="earthlings">Hello Earthlingssss<br/><span>{"I'm"}</span></div>
+                <div className="earthlings">Hello Earthlings<br/><span>{"I'm"}</span></div>
                 <div className="myName"><span>{props.name}</span></div>
             </div>
         </div>
     )
 }
-Home.PropTypes = {
+Home.propTypes = {
     name: PropTypes.string,
 }
 

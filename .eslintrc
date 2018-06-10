@@ -9,6 +9,7 @@
     "extends": [
     "plugin:react/recommended"
     ],
+    "parser": "babel-eslint",
     "rules": {
         "constructor-super": 2,
         "no-case-declarations": 2,
